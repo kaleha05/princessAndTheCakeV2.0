@@ -2,42 +2,36 @@
 
 namespace App\Http\Controllers;
 
-use App\CommentsPost;
-use App\Comment;
+use App\Models\Comment;
 use Illuminate\Http\Request;
 
 class CommentController extends Controller
 {
-    public function store(Request $request)
-    {
-        $comment = new Comment;
+    public function index(){
 
-        $comment->comment = $request->comment;
-
-        $comment->user()->associate($request->user());
-
-        $post = CommentsPost::find($request->post_id);
-
-        $post->comments()->save($comment);
-
-        return back();
     }
 
-    public function replyStore(Request $request)
+    public function show(Post $blogPost)
     {
-        $reply = new Comment();
 
-        $reply->comment = $request->get('comment');
+    }
 
-        $reply->user()->associate($request->user());
+    public function create(){
 
-        $reply->parent_id = $request->get('comment_id');
+    }
 
-        $post = CommentsPost::find($request->get('post_id'));
+    public function store(){
 
-        $post->comments()->save($reply);
+        $comment = new Comment();
 
-        return back();
+        $comment->post_id = request('post_id');
+        $comment->author = request('name');
+        $comment->email = request('email');
+        $comment->comment = request('message');
+
+        $comment->save();
+
+        return redirect()->back();
 
     }
 }

@@ -23,7 +23,7 @@
                     <div class="main_blog_inner single_blog_inner">
                         <div class="blog_item">
                             <div class="blog_img">
-                                <img class="img-fluid" src="img/banana-muffin1.jpeg" alt="">
+                                <img class="img-fluid" src="{{ ucfirst($post->image) }}" alt="">
                             </div>
                             <div class="blog_text">
                                 <div class="blog_time">
@@ -41,79 +41,36 @@
                             </div>
                         </div>
                         <div class="s_comment_list">
-                            <h3 class="cm_title_br">Comments 4</h3>
+                            <h3 class="cm_title_br">Comments</h3>
                             <div class="s_comment_list_inner">
+                                @forelse($comments as $comment)
                                 <div class="media">
                                     <div class="d-flex">
                                         <img src="img/comment/comment-1.jpg" alt="">
                                     </div>
                                     <div class="media-body">
-                                        <a href="#"><h4>Michale Joe</h4></a>
-                                        <p>Duis aute irure dolor in reprehenderit in vol uptate velit esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat cupidatat non proid pent.</p>
+                                        <a href="#"><h4>{{ ucfirst($comment->author) }}</h4></a>
+                                        <p>{{ ucfirst($comment->comment) }}</p>
                                         <div class="date_rep">
-                                            <a href="#">Nov 27 2017</a>
-                                            <a href="#">Reply</a>
+                                            <a href="#">{{ ucfirst($comment->created_at) }}</a>
                                         </div>
                                     </div>
                                 </div>
+                                @empty
                                 <div class="media">
-                                    <div class="d-flex">
-                                        <img src="img/comment/comment-1.jpg" alt="">
-                                    </div>
                                     <div class="media-body">
-                                        <a href="#"><h4>Michale Joe</h4></a>
-                                        <p>Duis aute irure dolor in reprehenderit in vol uptate velit esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat cupidatat non proid pent.</p>
-                                        <div class="date_rep">
-                                            <a href="#">Nov 27 2017</a>
-                                            <a href="#">Reply</a>
-                                        </div>
+                                        <p>Be the first to comment</p>
                                     </div>
                                 </div>
-                                <div class="media">
-                                    <div class="d-flex">
-                                        <img src="img/comment/comment-1.jpg" alt="">
-                                    </div>
-                                    <div class="media-body">
-                                        <a href="#"><h4>Michale Joe</h4></a>
-                                        <p>Duis aute irure dolor in reprehenderit in vol uptate velit esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat cupidatat non proid pent.</p>
-                                        <div class="date_rep">
-                                            <a href="#">Nov 27 2017</a>
-                                            <a href="#">Reply</a>
-                                        </div>
-                                        <div class="media">
-                                            <div class="d-flex">
-                                                <img src="img/comment/comment-1.jpg" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#"><h4>Michale Joe</h4></a>
-                                                <p>Duis aute irure dolor in reprehenderit in vol uptate velit esse cillum eu fugiat nulla pari atur. Excepteur sint occaecat cupidatat non.</p>
-                                                <div class="date_rep">
-                                                    <a href="#">Nov 27 2017</a>
-                                                    <a href="#">Reply</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <div class="d-flex">
-                                        <img src="img/comment/comment-1.jpg" alt="">
-                                    </div>
-                                    <div class="media-body">
-                                        <a href="#"><h4>Merry John</h4></a>
-                                        <p>Duis aute irure dolor in reprehenderit in vol uptate velit esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat cupidatat non proid pent.</p>
-                                        <div class="date_rep">
-                                            <a href="#">Nov 27 2017</a>
-                                            <a href="#">Reply</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforelse
                             </div>
                         </div>
                         <div class="s_comment_area">
                             <h3 class="cm_title_br">Leave a Comment</h3>
                             <div class="s_comment_inner">
-                                <form class="row contact_us_form" action="http://galaxyanalytics.net/demos/cake/theme/cake-html/contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                <form class="row contact_us_form" action="/save" method="post" id="contactForm" novalidate="novalidate">
+                                    {{ csrf_field() }}
+                                    <input type="hidden" name="post_id" value="{{ $post->id }}" />
                                     <div class="form-group col-md-6">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
                                     </div>
@@ -121,7 +78,7 @@
                                         <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address">
                                     </div>
                                     <div class="form-group col-md-12">
-                                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="Wrtie message"></textarea>
+                                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="Wrtie a comment"></textarea>
                                     </div>
                                     <div class="form-group col-md-12">
                                         <button type="submit" value="submit" class="btn order_s_btn form-control">submit now</button>

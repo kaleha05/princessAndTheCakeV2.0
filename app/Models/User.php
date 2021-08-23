@@ -5,7 +5,7 @@ namespace App\Models;
 use Orchid\Platform\Models\User as Authenticatable;
 
 class User extends Authenticatable
-{
+{    
     /**
      * The attributes that are mass assignable.
      *
@@ -66,7 +66,8 @@ class User extends Authenticatable
 
     public function posts() {
   
-        return $this->hasMany(CommentsPost::class);
+        return $this->hasMany(Post::class);
      
     }
+
 }

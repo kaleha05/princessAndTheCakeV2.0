@@ -45,5 +45,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/post/create', 'PostController@create')->name('post.create');
-Route::post('/post/store', 'PostController@store')->name('post.store');
+Route::post('/save',[\App\Http\Controllers\CommentController::class, 'store']);

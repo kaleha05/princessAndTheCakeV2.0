@@ -108,6 +108,9 @@ class PostEditScreen extends Screen
                 Quill::make('post.body')
                     ->title('Main text'),
 
+                Input::make('post.image')
+                    ->title('Cover image')
+                    ->placeholder('Image URL')
             ])
         ];
     }
