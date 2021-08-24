@@ -24,7 +24,7 @@
                     <div class="col-lg-6">
                         <div class="blog_item">
                             <div class="blog_img">
-                                <img class="img-fluid" src="img/banana-muffin1.jpeg" alt="">
+                                <img class="img-fluid" src="{{ $post->image }}" alt="">
                             </div>
                             <div class="blog_text">
                                 <div class="blog_time">
@@ -33,7 +33,7 @@
                                     </div>
                                     <div class="float-right">
                                         <ul class="list_style">
-                                            <li><a href="#">By :  Admin</a></li>
+                                            <li><a href="#">By :  Faiza</a></li>
                                         </ul>
                                     </div>
                                 </div>

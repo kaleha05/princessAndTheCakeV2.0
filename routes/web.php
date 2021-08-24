@@ -23,19 +23,13 @@ Route::get('/prices', function () {
     return view('prices');
 });
 
-Route::get('/reviews', function () {
-    return view('reviews');
-});
+Route::get('/reviews', [\App\Http\Controllers\CommentController::class, 'show']);
 
 Route::get('/faq', function () {
     return view('faq');
 });
 
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
-
- Route::get('/blog/{blogPost}', [\App\Http\Controllers\RecipesController::class, 'show']);
+Route::get('/blog/{blogPost}', [\App\Http\Controllers\RecipesController::class, 'show']);
 
 Route::get('/contacts', function () {
     return view('contacts');
@@ -46,3 +40,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/save',[\App\Http\Controllers\CommentController::class, 'store']);
+
+Route::get('/portfolio', [\App\Http\Controllers\ImagesController::class, 'index']);
+

@@ -23,7 +23,7 @@
                     <div class="main_blog_inner single_blog_inner">
                         <div class="blog_item">
                             <div class="blog_img">
-                                <img class="img-fluid" src="{{ ucfirst($post->image) }}" alt="">
+                                <img class="img-fluid" src="{{ $post->image }}" alt="">
                             </div>
                             <div class="blog_text">
                                 <div class="blog_time">
@@ -81,7 +81,7 @@
                                         <textarea class="form-control" name="message" id="message" rows="1" placeholder="Wrtie a comment"></textarea>
                                     </div>
                                     <div class="form-group col-md-12">
-                                        <button type="submit" value="submit" class="btn order_s_btn form-control">submit now</button>
+                                        <button type="submit" value="submit" class="btn order_s_btn form-control">Submit now</button>
                                     </div>
                                 </form>
                             </div>

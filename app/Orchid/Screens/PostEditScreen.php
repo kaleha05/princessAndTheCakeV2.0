@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Orchid\Screen\Fields\Input;
 use Orchid\Screen\Fields\Quill;
+use Orchid\Screen\Fields\Cropper;
 use Orchid\Screen\Fields\Relation;
 use Orchid\Screen\Fields\TextArea;
 use Orchid\Screen\Fields\Upload;
@@ -107,10 +108,12 @@ class PostEditScreen extends Screen
 
                 Quill::make('post.body')
                     ->title('Main text'),
-
-                Input::make('post.image')
+                
+                Cropper::make('post.image')
+                    ->targetRelativeUrl()
                     ->title('Cover image')
-                    ->placeholder('Image URL')
+                    ->width(1000)
+                    ->height(500)
             ])
         ];
     }
@@ -125,7 +128,7 @@ class PostEditScreen extends Screen
     {
         $post->fill($request->get('post'))->save();
 
-        Alert::info('You have successfully created an post.');
+        Alert::info('You have successfully created a post.');
 
         return redirect()->route('platform.post.list');
     }

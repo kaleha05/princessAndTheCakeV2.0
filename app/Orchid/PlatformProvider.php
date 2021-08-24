@@ -28,7 +28,11 @@ class PlatformProvider extends OrchidServiceProvider
         return [
             Menu::make('Recipes')
                 ->icon('monitor')
-                ->route('platform.post.list')
+                ->route('platform.post.list'),
+
+            Menu::make('Images')
+                ->icon('docs')
+                ->route('platform.image.list')
 
             // Menu::make('Dropdown menu')
             //     ->icon('code')

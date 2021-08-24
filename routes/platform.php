@@ -20,6 +20,8 @@ use Tabuna\Breadcrumbs\Trail;
 use App\Orchid\Screens\EmailSenderScreen;
 use App\Orchid\Screens\PostEditScreen;
 use App\Orchid\Screens\PostListScreen;
+use App\Orchid\Screens\ImageEditScreen;
+use App\Orchid\Screens\ImageListScreen;
 
 Route::screen('post/{post?}', PostEditScreen::class)
     ->name('platform.post.edit');
@@ -120,3 +122,9 @@ Route::screen('example-cards', ExampleCardsScreen::class)->name('platform.exampl
 Route::screen('example-advanced', ExampleFieldsAdvancedScreen::class)->name('platform.example.advanced');
 
 //Route::screen('idea', 'Idea::class','platform.screens.idea');
+
+Route::screen('image/{image?}', ImageEditScreen::class)
+    ->name('platform.image.edit');
+
+Route::screen('images', ImageListScreen::class)
+    ->name('platform.image.list');

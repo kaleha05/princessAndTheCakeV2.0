@@ -69,13 +69,13 @@
 							<li><a href="{{url('')}}">Home</a></li>
 							<li><a href="{{url('portfolio')}}">Portfolio</a></li>
 							<li><a href="{{url('blog')}}">Recipe Blog</a></li>
-							<li><a href="{{url('faq')}}">Services</a></li>
+							<li><a href="{{url('reviews')}}">Reviews</a></li>
 						</ul>
 						<ul class="navbar-nav justify-content-end">
 							<li><a href="{{url('prices')}}">Price Guide</a></li>
-							<li><a href="{{url('reviews')}}">Reviews</a></li>
-							<li><a href="{{url('faq')}}">Faq</a></li>
-							<li><a href="{{url('contacts')}}">Contact Us</a></li>
+							<li><a href="{{url('reviews')}}">Enquiries</a></li>
+							<li><a href="">Classes</a></li>
+							<li><a href="{{url('contacts')}}">Our Contacts</a></li>
 						</ul>
 					</div>
 				</nav>

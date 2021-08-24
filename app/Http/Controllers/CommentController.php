@@ -11,9 +11,13 @@ class CommentController extends Controller
 
     }
 
-    public function show(Post $blogPost)
+    public function show()
     {
-
+        $id = 1;
+        $reviews = Comment::where("post_id", "=", $id)->get();
+        return view('reviews', [
+            'reviews' => $reviews
+        ]);
     }
 
     public function create(){
