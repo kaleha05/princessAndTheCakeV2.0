@@ -226,7 +226,7 @@
 							<a href="#">
 								<h5></h5>
 							</a>
-							<a href="{{url('blog/3')}}">
+							<a href="{{url('blog/19')}}">
 								<h4>Sugar-free banana muffins</h4>
 							</a>
 							<p>Who said that sugarless goodies have to be tasteless? Well, I fell in love with these muffins at first bite. I’ve never really been a fan of...</p>
@@ -242,7 +242,7 @@
 							<a href="#">
 								<h5></h5>
 							</a>
-							<a href="{{url('blog/7')}}">
+							<a href="{{url('blog/20')}}">
 								<h4>Christmas sugar cookies</h4>
 							</a>
 							<p>Sugar cookies can be an all year round type of cookie but oh boy! They just get me as soon as December starts. It’s my tradition for...</p>
@@ -258,7 +258,7 @@
                             <a href="#">
 								<h5></h5>
 							</a>
-							<a href="{{url('blog/4')}}">
+							<a href="{{url('blog/21')}}">
 								<h4>Chocolate Peanut Butter Cupcakes</h4>
 							</a>
 							<p>Peanut butter lovers in the house, this one’s for you. Sometimes peanut butter on bread just isn’t enough. So why not try them on  ....</p>

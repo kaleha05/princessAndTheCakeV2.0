@@ -121,11 +121,11 @@ class PlatformProvider extends OrchidServiceProvider
     /**
      * @return string[]
      */
-    public function registerSearchModels(): array
-    {
-        return [
-            // ...Models
-            // \App\Models\User::class
-        ];
-    }
+    // public function registerSearchModels(): array
+    // {
+    //     return [
+    //         // ...Models
+    //         // \App\Models\User::class
+    //     ];
+    // }
 }

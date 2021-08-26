@@ -32,7 +32,7 @@
                                     </div>
                                     <div class="float-right">
                                         <ul class="list_style">
-                                            <li><a href="#">By :  Admin</a></li>
+                                            <li><a href="#">By :  Faiza</a></li>
                                         </ul>
                                     </div>
                                 </div>

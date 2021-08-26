@@ -8,8 +8,9 @@
 							<img src="{{asset('assets/img/faiza-logo.png')}}" height="40px" width="40px" alt="">
 							<p>Princess and the cake is a luxury cake business that will cater for all your occasions.</p>
 							<ul class="nav">
-								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fa fa-location-arrow"></i></a></li>
+								<li><a href="https://wa.me/254705303081" target="blank"><i class="fa fa-whatsapp"></i></a></li>
+								<li><a href="https://www.instagram.com/theprincessandthecake/?hl=en" target="blank"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="https://www.google.com/maps/place/360+Court+Apartments/@-1.3719301,36.9304886,16z/data=!4m5!3m4!1s0x182f0cdfe36d5a99:0x43a175661d2f12bc!8m2!3d-1.3717102!4d36.9329455" target="blank"><i class="fa fa-location-arrow"></i></a></li>
 							</ul>
 						</aside>
 					</div>
@@ -19,10 +20,10 @@
 								<h3>Quick links</h3>
 							</div>
 							<ul class="list_style">
-								<li><a href="#">Gallery</a></li>
+								<li><a href="{{url('portfolio')}}">Portfolio</a></li>
 								<li><a href="#">Baking Classes</a></li>
-								<li><a href="#">Recipes</a></li>
-								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="{{url('blog')}}">Recipes</a></li>
+								<li><a href="{{url('prices')}}">Prices</a></li>
 							</ul>
 						</aside>
 					</div>

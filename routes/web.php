@@ -25,8 +25,8 @@ Route::get('/prices', function () {
 
 Route::get('/reviews', [\App\Http\Controllers\CommentController::class, 'show']);
 
-Route::get('/faq', function () {
-    return view('faq');
+Route::get('/classes', function () {
+    return view('classes');
 });
 
 Route::get('/blog/{blogPost}', [\App\Http\Controllers\RecipesController::class, 'show']);

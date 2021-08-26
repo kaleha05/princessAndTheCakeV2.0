@@ -73,9 +73,9 @@
 						</ul>
 						<ul class="navbar-nav justify-content-end">
 							<li><a href="{{url('prices')}}">Price Guide</a></li>
-							<li><a href="{{url('reviews')}}">Enquiries</a></li>
-							<li><a href="">Classes</a></li>
-							<li><a href="{{url('contacts')}}">Our Contacts</a></li>
+							<li><a href="{{url('classes')}}">Classes</a></li>
+							<li><a href="{{url('contacts')}}">Contacts</a></li>
+							<li><a href="https://wa.me/254705303081" style="color: #f195b2"><i class="fa fa-whatsapp"></i> Enquire now</a></li>
 						</ul>
 					</div>
 				</nav>
