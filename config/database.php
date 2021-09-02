@@ -22,17 +22,6 @@ return [
     |
     */
 
-    'your_heroku_mysql_connection' => array(
-        'driver' => 'mysql',
-        'host' => $host,
-        'database' => $database,
-        'username' => $username,
-        'password' => $password,
-        'charset' => 'utf8',
-        'collation' => 'utf8_unicode_ci',
-        'prefix' => '',
-    ),
-
     'default' => env('DB_CONNECTION', 'your_heroku_mysql_connection'),
     
     // 'default' => env('DB_CONNECTION', 'mysql'),
@@ -62,6 +51,17 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+        
+        'your_heroku_mysql_connection' => array(
+            'driver' => 'mysql',
+            'host' => $host,
+            'database' => $database,
+            'username' => $username,
+            'password' => $password,
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix' => '',
+        ),
 
         'mysql' => [
             'driver' => 'mysql',
