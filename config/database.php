@@ -49,7 +49,7 @@ return [
             'url' => $databaseUrl,
             'host' => $databaseUrl['host'],
             'port' => 3306,
-            'database' => substr($url["path"], 1),
+            'database' => substr($databaseUrl["path"], 1),
             'username' => $databaseUrl['user'],
             'password' => $databaseUrl['pass'],
         ],
