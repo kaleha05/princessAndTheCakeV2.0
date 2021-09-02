@@ -47,11 +47,11 @@ return [
 
         'mysql' => [
             'url' => $databaseUrl,
-            'host' => $databaseUrl['host'],
+            'host' => $databaseUrl["host"],
             'port' => 3306,
             'database' => substr($databaseUrl["path"], 1),
-            'username' => $databaseUrl['user'],
-            'password' => $databaseUrl['pass'],
+            'username' => $databaseUrl["user"],
+            'password' => $databaseUrl["pass"],
         ],
 
         'pgsql' => [
