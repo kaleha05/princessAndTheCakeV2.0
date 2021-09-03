@@ -46,7 +46,7 @@ return [
         ],
         
         'mysql' => [
-            'url' => $databaseUrl,
+            'url' => "mysql://bf622b776010a0:772dc921@eu-cdbr-west-01.cleardb.com/heroku_c5ee4ab21547a2f?reconnect=true",
             'host' => "eu-cdbr-west-01.cleardb.com",
             'port' => 3306,
             'database' => "heroku_c5ee4ab21547a2f",
