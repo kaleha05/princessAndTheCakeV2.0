@@ -149,13 +149,13 @@
 					<div class="col-lg-6">
 						<div class="discover_item_inner">
 							<div class="discover_item">
-								<h4>Cakes</h4>
-								<p>Your choice of flavour(s)<span>From Ksh 1200</span></p>
-							</div>
-							<div class="discover_item">
-								<h4>Cupcakes</h4>
-								<p>A minimum of 12<span>Ksh 1100</span></p>
-							</div>
+                                <h4>Cupcakes</h4>
+                                <p>12 cupcakes<span>Ksh 1200</span></p>
+                            </div>
+                            <div class="discover_item">
+                                <h4>Single tier cake</h4>
+                                <p>1.5 kg kg<span>Ksh 2900 - 3300</span></p>
+                            </div>
 							<div class="discover_item">
 								<h4>Treatboxes</h4>
 								<p>Seasonal treatboxes <span>Ksh 950</span></p>
