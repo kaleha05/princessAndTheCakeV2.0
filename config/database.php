@@ -44,14 +44,14 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
-
+        
         'mysql' => [
             'url' => $databaseUrl,
-            'host' => $databaseUrl["host"],
+            'host' => "eu-cdbr-west-01.cleardb.com",
             'port' => 3306,
-            'database' => substr($databaseUrl["path"], 1),
-            'username' => $databaseUrl["user"],
-            'password' => $databaseUrl["pass"],
+            'database' => "heroku_c5ee4ab21547a2f",
+            'username' => "bf622b776010a0",
+            'password' => "772dc921",
         ],
 
         'pgsql' => [
