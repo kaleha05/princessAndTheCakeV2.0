@@ -2044,7 +2044,7 @@ i:before {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  color: #f195b2;
+  color: #343434;
   font-size: 16px;
   font-family: "Playfair Display", serif;
   font-style: italic;
@@ -2060,7 +2060,10 @@ i:before {
   margin-bottom: 0px;
   z-index: 2;
 }
-
+.cake_feature_item .cake_text h4 i {
+  color: #f195b2;
+  font-size: 16px;
+}
 .cake_feature_item .cake_text h3 {
   font-size: 18px;
   color: #343434;
