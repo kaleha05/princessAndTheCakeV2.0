@@ -1816,9 +1816,10 @@ i:before {
   margin-top: 120px;
 }
 .main_slider_area .rev_slider ul li .slider_text_box .first_text {
-  color: #753375;
+  color: #fff;
   font-family: "Playfair Display", serif;
   font-weight: bold !important;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main_slider_area .rev_slider ul li .slider_text_box .first_text.black {
