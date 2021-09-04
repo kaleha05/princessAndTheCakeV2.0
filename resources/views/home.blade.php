@@ -211,7 +211,7 @@
 	<!--================End Client Says Area =================-->
 
 	<!--================Latest News Area =================-->
-	<section class="latest_news_area p_100">
+	<!-- <section class="latest_news_area p_100">
 		<div class="container">
 			<div class="main_title">
 				<h2>Blog</h2>
@@ -267,7 +267,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!--================End Latest News Area =================-->
 
 @endsection

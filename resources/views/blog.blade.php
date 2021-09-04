@@ -16,7 +16,7 @@
     <!--================End Main Header Area =================-->
     
     <!--================Blog Main Area =================-->
-    <section class="main_blog_area p_100">
+    <!-- <section class="main_blog_area p_100">
         <div class="container">
             <div class="blog_area_inner">
                 <div class="main_blog_column row">
@@ -49,7 +49,37 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--================End Blog Main Area =================-->
+
+            <!--================Comming Soon Area =================-->
+		<section class="coming_soon_area">
+            <div class="coming_soon">
+                <div class="welcome-text-area">
+                    <div class="container">
+                        <h2 class="coming-header">Coming Soon</h2>
+                        <div id="clockdiv" class="coming_soon_counter">
+                            <div class="counter-item">
+                                <span class="days"></span>
+                                <div class="smalltext">Days</div>
+                            </div>
+                            <div class="counter-item">
+                                <span class="hours"></span>
+                                <div class="smalltext">Hours</div>
+                            </div>
+                            <div class="counter-item">
+                                <span class="minutes"></span>
+                                <div class="smalltext">Minutes</div>
+                            </div>
+                            <div class="counter-item">
+                                <span class="seconds"></span>
+                                <div class="smalltext">Seconds</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Footer Area =================-->
 
 @endsection
