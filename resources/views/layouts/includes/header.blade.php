@@ -71,7 +71,7 @@
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cakes</a>
 								<ul class="dropdown-menu">
 									<li><a href="{{url('portfolio')}}">Portfolio</a></li>
-									<li><a href="">Flavours</a></li>
+									<li><a href="{{url('flavours')}}">Flavours</a></li>
 								</ul>
 							</li>
 							<li><a href="{{url('blog')}}">Recipe Blog</a></li>

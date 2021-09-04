@@ -25,6 +25,10 @@ Route::get('/prices', function () {
 
 Route::get('/reviews', [\App\Http\Controllers\CommentController::class, 'show']);
 
+Route::get('/flavours', function () {
+    return view('flavours');
+});
+
 Route::get('/classes', function () {
     return view('classes');
 });
