@@ -2007,6 +2007,7 @@ i:before {
   -webkit-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
+  height: 250px;
 }
 
 .cake_feature_item .cake_img:before {
