@@ -27,7 +27,7 @@
                         <div class="cake_text">
                             <h4><i class="fa fa-heart"></i> 10</h4>
                             <h3>Raspberry orange with raspberry filling</h3>
-                            <a class="pest_btn" href="#">DisLike</a>
+                            <a class="pest_btn" href="#">Like</a>
                         </div>
                     </div>
                 </div>
