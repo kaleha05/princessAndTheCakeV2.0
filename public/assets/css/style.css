@@ -1817,7 +1817,7 @@ i:before {
 }
 
 .main_slider_area .rev_slider ul li img {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.8);
 }
 .main_slider_area .rev_slider ul li .slider_text_box .first_text {
   color: #fff;

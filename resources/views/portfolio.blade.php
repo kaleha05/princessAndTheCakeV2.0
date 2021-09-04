@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<!-- 
+
     <section class="banner_area">
         <div class="container">
             <div class="banner_text">
@@ -11,7 +11,7 @@
                 </ul>
             </div>
         </div>
-    </section> -->
+    </section>
     <!--================Portfolio Area Area =================-->
     <!-- <section class="portfolio_area p_100">
         <div class="container">
