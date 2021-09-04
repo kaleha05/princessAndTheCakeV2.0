@@ -7,7 +7,7 @@
         
         <link rel="icon" href="{{asset('assets/img/faiza-logo.png')}}"  type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Cake - Bakery</title>
+        <title>Princess and the cake</title>
 
         <!-- Icon css link -->
         <link href="{{asset('assets/css/font-awesome.min.css')}}" rel="stylesheet">
@@ -96,24 +96,7 @@
                 <div class="welcome-text-area">
                     <div class="container">
                         <h2 class="coming-header">Coming Soon</h2>
-                        <div id="clockdiv" class="coming_soon_counter">
-                            <div class="counter-item">
-                                <span class="days"></span>
-                                <div class="smalltext">Days</div>
-                            </div>
-                            <div class="counter-item">
-                                <span class="hours"></span>
-                                <div class="smalltext">Hours</div>
-                            </div>
-                            <div class="counter-item">
-                                <span class="minutes"></span>
-                                <div class="smalltext">Minutes</div>
-                            </div>
-                            <div class="counter-item">
-                                <span class="seconds"></span>
-                                <div class="smalltext">Seconds</div>
-                            </div>
-                        </div>
+                        <p>Recipes will be posted weekly in the next few weeks.<br>Follow <a href="https://www.instagram.com/theprincessandthecake/?hl=en">@princessandthecake</a> on instagram for more details</p>
                     </div>
                 </div>
             </div>
