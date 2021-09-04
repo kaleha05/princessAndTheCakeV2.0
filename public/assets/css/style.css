@@ -1814,12 +1814,12 @@ i:before {
 ============================================================================================ */
 .main_slider_area{
   margin-top: 120px;
+  background: rgba(0, 0, 0, 0.3);
 }
 .main_slider_area .rev_slider ul li .slider_text_box .first_text {
   color: #fff;
   font-family: "Playfair Display", serif;
   font-weight: bold !important;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main_slider_area .rev_slider ul li .slider_text_box .first_text.black {
