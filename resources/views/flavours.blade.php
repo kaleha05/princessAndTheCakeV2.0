@@ -25,9 +25,9 @@
                             <img src="{{asset('assets/img/raspberry.jpg')}}" alt="">
                         </div>
                         <div class="cake_text">
-                            <h4><i class="fa fa-heart" color="pink"></i> 10</h4>
+                            <h4><i class="fa fa-heart"></i> 10</h4>
                             <h3>Raspberry orange with raspberry filling</h3>
-                            <a class="pest_btn" href="#">Like</a>
+                            <a class="pest_btn" href="#">DisLike</a>
                         </div>
                     </div>
                 </div>
