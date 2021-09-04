@@ -1841,9 +1841,9 @@ i:before {
 }
 
 .main_slider_area .rev_slider ul li .slider_text_box .main_btn {
-  background: #fff;
+  background: #f195b2;
   font-size: 18px;
-  color: #3e606b;
+  color: #fff;
   display: inline-block;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
