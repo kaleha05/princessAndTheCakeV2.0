@@ -35,8 +35,8 @@
                         </div>
                         <div class="contact_d_item">
                             <h3>Opening Hours :</h3>
-                            <p>8:00 AM – 10:00 PM</p>
-                            <p>Monday – Sunday</p>
+                            <p>8:00 AM – 6:00 PM</p>
+                            <p>Monday – Saturday</p>
                         </div>
                     </div>
                 </div>

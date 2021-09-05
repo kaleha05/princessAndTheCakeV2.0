@@ -23,14 +23,14 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="s_left_img">
-                                <img class="img-fluid" src="{{asset('assets/img/special/special-1.png')}}" alt="">
+                                <img class="img-fluid" src="{{asset('assets/img/raspberry.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-8">
                             <div class="special_item_text">
                                 <h4>Kids baking classes</h4>
                                 <p>Does your little angel like to stay with you in the kitchen? This is the perfect opportunity for him or her to learn how to bake. Your child will receive one on one training so you do not have to worry about him or her leaving the training without any knowledge. Contact us today to book a slot</p>
-                                <a class="pink_btn" href="#">Enroll now</a>
+                                <a class="pink_btn" href="https://wa.me/254705303081">Enroll now</a>
                             </div>
                         </div>
                     </div>

@@ -178,7 +178,7 @@
 					</div>
 					<div class="item">
 						<div class="cake_img">
-							<img src="{{asset('assets/img/newCupcake2.jpg')}}" alt="">
+							<img src="{{asset('assets/img/newCupcake3.jpg')}}" alt="">
 						</div>
 					</div>
 					<div class="item">

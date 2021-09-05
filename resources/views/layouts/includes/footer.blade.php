@@ -6,7 +6,7 @@
 					<div class="col-lg-3 col-6">
 						<aside class="f_widget f_about_widget">
 							<img src="{{asset('assets/img/faiza-logo.png')}}" height="40px" width="40px" alt="">
-							<p>Princess and the cake is a luxury cake business that will cater for all your occasions.</p>
+							<p>Princess & the Cake is a luxury cake business that will cater for all your occasions.</p>
 							<ul class="nav">
 								<li><a href="https://wa.me/254705303081" target="blank"><i class="fa fa-whatsapp"></i></a></li>
 								<li><a href="https://www.instagram.com/theprincessandthecake/?hl=en" target="blank"><i class="fa fa-instagram"></i></a></li>
