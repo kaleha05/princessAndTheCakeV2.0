@@ -121,7 +121,7 @@
                     <div class="portfolio_item">
                         <div class="portfolio_img">
                             <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
-                                <img class="img-fluid" src="{{asset('assets/img/cakesicle1.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('assets/img/cp1.jpg')}}" alt="">
                             </a>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                     <div class="portfolio_item">
                         <div class="portfolio_img">
                             <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
-                                <img class="img-fluid" src="{{asset('assets/img/cakesicle1.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('assets/img/cp2.jpg')}}" alt="">
                             </a>
                         </div>
                     </div>

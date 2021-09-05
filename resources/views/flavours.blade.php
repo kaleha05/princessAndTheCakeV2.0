@@ -30,7 +30,7 @@
                             <div class="cake_text">
                                 <h4><i class="fa fa-heart"></i>{{ $entry->likes}}</h4>
                                 <h3>Raspberry orange with raspberry filling</h3>
-                                <a class="pest_btn" href="./flavours/5" @if($disableButton) disabled='disabled' @endif >Like</a>
+                                <a class="pest_btn" href="./flavours/5">Like</a>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                             <div class="cake_text">
                                 <h4><i class="fa fa-heart"></i> {{ $entry->likes}}</h4>
                                 <h3>Lemon blueberry with blueberry filling</h3>
-                                <a class="pest_btn" href="./flavours/15" @if($disableButton) disabled='disabled' @endif >Like</a>
+                                <a class="pest_btn" href="./flavours/15" >Like</a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                             <div class="cake_text">
                                 <h4><i class="fa fa-heart"></i> {{ $entry->likes}}</h4>
                                 <h3>Chocolate caramel</h3>
-                                <a class="pest_btn" href="./flavours/35" @if($disableButton) disabled='disabled' @endif >Like</a>
+                                <a class="pest_btn" href="./flavours/35">Like</a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                             <div class="cake_text">
                                 <h4><i class="fa fa-heart"></i> {{ $entry->likes}}</h4>
                                 <h3>Fluffy vanilla with strawberry filling</h3>
-                                <a class="pest_btn" href="./flavours/45" @if($disableButton) disabled='disabled' @endif >Like</a>
+                                <a class="pest_btn" href="./flavours/45">Like</a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                             <div class="cake_text">
                                 <h4><i class="fa fa-heart"></i> {{ $entry->likes}}</h4>
                                 <h3>Pink strawberry and Oreo crunch</h3>
-                                <a class="pest_btn" href="./flavours/55" @if($disableButton) disabled='disabled' @endif >Like</a>
+                                <a class="pest_btn" href="./flavours/55">Like</a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             <div class="cake_text">
                                 <h4><i class="fa fa-heart"></i> {{ $entry->likes}}</h4>
                                 <h3>Red velvet N' Nutella</h3>
-                                <a class="pest_btn" href="./flavours/65" @if($disableButton) disabled='disabled' @endif >Like</a>
+                                <a class="pest_btn" href="./flavours/65">Like</a>
                             </div>
                         </div>
                     </div>

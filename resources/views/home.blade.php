@@ -173,7 +173,12 @@
 				<div class="cake_feature_slider owl-carousel">
 					<div class="item">
 						<div class="cake_img">
-							<img src="{{asset('assets/img/cake4.jpg')}}" alt="">
+							<img src="{{asset('assets/img/cake10.jpg')}}" alt="">
+						</div>
+					</div>
+					<div class="item">
+						<div class="cake_img">
+							<img src="{{asset('assets/img/cake11.jpg')}}" alt="">
 						</div>
 					</div>
 					<div class="item">
@@ -198,7 +203,7 @@
 					</div>
 					<div class="item">
 						<div class="cake_img">
-							<img src="{{asset('assets/img/cake9.jpg')}}" alt="">
+							<img src="{{asset('assets/img/cake3.jpg')}}" alt="">
 						</div>
 					</div>
 				</div>
@@ -225,7 +230,7 @@
                             </div>
                             <div class="discover_item">
                                 <h4>Single tier cake</h4>
-                                <p>1.5 kg kg<span>Ksh 2900 - 3300</span></p>
+                                <p>1.5 kg<span>Ksh 2900 - 3300</span></p>
                             </div>
 							<div class="discover_item">
 								<h4>Treatboxes</h4>

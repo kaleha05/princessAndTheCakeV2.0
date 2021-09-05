@@ -19,7 +19,7 @@
             <div class="price_list_inner">
                 <div class="single_pest_title">
                     <h2>Our Price List</h2>
-                    <p>The list below contains the base prices for our cakes. Please note that these prices do not include delivery or decorations such as cake toppers and florals. Every cake is customised with different sets of skill and time. Please contact us for a detailed quote.</p>
+                    <p>The list below contains the base prices for our cakes. Please note that these prices do not include delivery or decorations such as cake toppers and florals. Every cake is customised with different sets of skill and time. Please contact us for a detailed quote. More sizes are available on request</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
