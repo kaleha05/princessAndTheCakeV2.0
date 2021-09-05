@@ -459,6 +459,9 @@
 	
 }
 @media(max-width: 767px){
+	.main_slider_area{
+		top: -70px;
+	}
 	.special_recipe_slider .item .media .d-flex {
 		padding-right: 0px;
 		display: block;
@@ -601,6 +604,9 @@
 	}
 }
 @media(max-width: 575px){
+	.main_slider_area{
+		top: -70px;
+	}
 	.welcome_bakery_area::before {
 		display: none;
 	}
@@ -835,8 +841,8 @@
 	.main_title h2 {
 		font-size: 26px;
 	}
-	.main_slider_area .rev_slider {
-		top: 0%;
+	.main_slider_area{
+		top: -70px;
 	}
 	.special_recipe_slider .owl-dots {
 		position: relative;
