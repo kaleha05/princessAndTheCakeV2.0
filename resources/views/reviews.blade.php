@@ -27,7 +27,11 @@
                     </div>
                 </div>
                 @empty
-                <p class="text-warning">No blog reviews available</p>
+                <div class="media">
+                    <div class="media-body">
+                        <p>Be the first to leave a review</p>
+                    </div>
+                </div>
                 @endforelse
             </div>
         </div>
