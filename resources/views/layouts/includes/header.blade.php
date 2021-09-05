@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PZXEXLP1XN"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+	
+		gtag('config', 'G-PZXEXLP1XN');
+	</script>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +19,9 @@
 	<link rel="icon" href="{{asset('assets/img/faiza-logo.png')}}" type="image/x-icon" />
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Princess and the Cake</title>
+	<meta content="princess,cake,princessandthecake,princess and the cake,recipes,recipes kenya,chocolate cake,red velvet cake,cakes in Nairobi,bakeries in nairobi,kenya,nairobi,bakery" name="keywords">
+	<meta name="description" content="Princess and the cake is a luxury cake business that will cater for all your occasions. We make cakes for birthdays, weddings, bridal showers...">
+	<meta name="robots" content="index,follow">
 
 	<!-- Icon css link -->
 	<link href="{{asset('assets/css/font-awesome.min.css')}}" rel="stylesheet">

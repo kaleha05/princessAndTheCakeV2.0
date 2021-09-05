@@ -1745,7 +1745,7 @@ i:before {
 ============================================================================================ */
 .banner_area {
   margin-top: 100px;
-  background: url(../img/banner/banner-bg.jpg) no-repeat scroll center center;
+  background: url(../img/cakesicle31.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -1820,7 +1820,7 @@ i:before {
   background: rgba(0, 0, 0, 0.8);
 }
 .main_slider_area .rev_slider ul li .slider_text_box .first_text {
-  color: #343434;
+  color: #fff;
   font-family: "Playfair Display", serif;
   font-weight: bold !important;
 }
