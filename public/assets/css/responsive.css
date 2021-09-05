@@ -835,6 +835,9 @@
 	.main_title h2 {
 		font-size: 26px;
 	}
+	.main_slider_area .rev_slider {
+		top: 0%;
+	}
 	.special_recipe_slider .owl-dots {
 		position: relative;
 		right: 0px;
