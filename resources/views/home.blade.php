@@ -11,7 +11,7 @@
 					data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5=""
 					data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 					<!-- MAIN IMAGE -->
-					<img src="{{asset('assets/img/cakesicle31.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover"
+					<img src="{{asset('assets/img/cake91.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover"
 						data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 
 					<!-- LAYER NR. 1 -->
@@ -45,7 +45,7 @@
 				data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5=""
 				data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 				<!-- MAIN IMAGE -->
-				<img src="{{asset('assets/img/cakesicle11.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover"
+				<img src="{{asset('assets/img/cake31.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover"
 					data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 				<!-- LAYERS -->
 				<!-- LAYERS -->
@@ -173,7 +173,7 @@
 				<div class="cake_feature_slider owl-carousel">
 					<div class="item">
 						<div class="cake_img">
-							<img src="{{asset('assets/img/cakesicle1.jpg')}}" alt="">
+							<img src="{{asset('assets/img/cake4.jpg')}}" alt="">
 						</div>
 					</div>
 					<div class="item">
@@ -183,12 +183,7 @@
 					</div>
 					<div class="item">
 						<div class="cake_img">
-							<img src="{{asset('assets/img/cakesicle2.jpg')}}" alt="">
-						</div>
-					</div>
-					<div class="item">
-						<div class="cake_img">
-							<img src="{{asset('assets/img/newCupcake3.jpg')}}" alt="">
+							<img src="{{asset('assets/img/cake5.jpg')}}" alt="">
 						</div>
 					</div>
 					<div class="item">
@@ -198,15 +193,17 @@
 					</div>
 					<div class="item">
 						<div class="cake_img">
-							<img src="{{asset('assets/img/newCupcake4.jpg')}}" alt="">
+							<img src="{{asset('assets/img/cake7.jpg')}}" alt="">
 						</div>
 					</div>
 					<div class="item">
 						<div class="cake_img">
-							<img src="{{asset('assets/img/cakesicle4.jpg')}}" alt="">
+							<img src="{{asset('assets/img/cake9.jpg')}}" alt="">
 						</div>
 					</div>
 				</div>
+				<br>
+				<a class="pink_more" href="{{url('portfolio')}}">See all</a>
 			</div>
 		</div>
 	</section>

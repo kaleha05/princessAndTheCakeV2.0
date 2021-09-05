@@ -21,7 +21,7 @@
 							</div>
 							<ul class="list_style">
 								<li><a href="{{url('portfolio')}}">Portfolio</a></li>
-								<li><a href="#">Baking Classes</a></li>
+								<li><a href="{{url('classes')}}">Baking Classes</a></li>
 								<li><a href="{{url('blog')}}">Recipes</a></li>
 								<li><a href="{{url('prices')}}">Prices</a></li>
 							</ul>

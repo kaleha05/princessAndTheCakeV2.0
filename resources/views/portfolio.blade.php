@@ -40,6 +40,96 @@
                     <div class="portfolio_item">
                         <div class="portfolio_img">
                             <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake3.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake4.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake5.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake6.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake7.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake8.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake9.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake10.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cake11.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
+                                <img class="img-fluid" src="{{asset('assets/img/cakesicle1.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 cake bakery bread">
+                    <div class="portfolio_item">
+                        <div class="portfolio_img">
+                            <a class="light" href="{{asset('assets/img/cakesicle1.jpg')}}">
                                 <img class="img-fluid" src="{{asset('assets/img/cakesicle1.jpg')}}" alt="">
                             </a>
                         </div>
